@@ -6,7 +6,7 @@ import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
 import logo from "./logo.svg";
 import quotes from "./quotes.svg";
-
+import nexsusblog from "./nexsusblog.png";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
@@ -37,6 +37,7 @@ import bank from "./bank.png";
 import sacaryawebdemo from "./sacaryademoimg.png";
 import cryptoimg from "./cryptoimg.png";
 export {
+  nexsusblog,
   cryptoimg,
   sacaryawebdemo,
   bank,

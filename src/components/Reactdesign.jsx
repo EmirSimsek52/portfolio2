@@ -11,7 +11,7 @@ export default function Reactdesign() {
       <Float speed={5} rotationIntensity={1} floatIntensity={2}>
         <Atom />
       </Float>
-      <Stars count={400} />
+    
       <EffectComposer>
         <Bloom mipmapBlur luminanceThreshold={.2} radius={.4} />
       </EffectComposer>

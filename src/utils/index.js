@@ -10,14 +10,18 @@ export const animateY = (delay) => {
     return {
       x: [-200,0],
       opacity: [0,.25,.5,.75,1],
-      duration: 0.8
+      transition: {
+        duration: .5
+      }
     }
   }
   export const animatereverseX= () => {
     return {
-      x: [600,0],
+      x: [200,0],
       opacity: [0,.25,.5,.75,1],
-      duration: 0.8
+      transition: {
+        duration: .5
+      }
     }
   }
 

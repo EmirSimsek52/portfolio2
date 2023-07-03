@@ -18,6 +18,7 @@ cryptoimg,
   reactjob,
   flashchat,
   bank,
+  nexsusblog,
   sacaryawebdemo,
   } from "../assets";
 
@@ -101,9 +102,9 @@ export const projects = [
     live_link: "https://github.com/EmirSimsek52/RentaCarApp",
   },
   {
-    name: "Crypto Live Price",
+    name: "Full Stack Blog Website",
     description:
-      "CryptoFlash include Top 50 cryptocurruncies, you can see price details and project informations on this website.",
+      "Welcome to my full-stack blog website! It offers seamless user registration and login functionalities. You can easily publish, update, and delete posts, ensuring a dynamic and interactive blogging experience.",
     tags: [
       {
         name: "React",
@@ -113,10 +114,22 @@ export const projects = [
         name: "Tailwind",
         color: "text-[#6da5bb]",
       },
+      {
+        name: "MongoDB",
+        color: "text-[#16FF00]"
+      },
+      {
+        name: "NodeJS",
+        color: "text-[#38E54D]"
+      },
+      {
+        name: "express",
+        color: "text-[white]"
+      },
     ],
-    image: cryptoimg,
-    source_code_link: "https://github.com/EmirSimsek52/CryptoWeb",
-    live_link: "https://emirsimsek52.github.io/CryptoWeb/",
+    image: nexsusblog,
+    source_code_link: "https://github.com/EmirSimsek52/FullStackBlogWebsite",
+    live_link: "https://github.com/EmirSimsek52/FullStackBlogWebsite",
   },
   
   {

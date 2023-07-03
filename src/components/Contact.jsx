@@ -5,6 +5,7 @@ import styles from "../style";
 import emailjs from "@emailjs/browser";
 import { animateX, animatereverseX } from "../utils";
 import Reactdesign from "./Reactdesign";
+import ReactModel from "./canvas/ReactModel";
 
 
 
@@ -110,10 +111,10 @@ function Contact() {
 
       <motion.div
         animate={animatereverseX()}
-        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px] ss:ml-3 ml-0'
+        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px] ss:ml-3 ml-0 ss:mt-10 mt-0'
       >
-        <Reactdesign />
-
+        
+            <ReactModel />
       </motion.div>
     </div>
   );

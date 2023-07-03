@@ -25,7 +25,10 @@ const Business = () =>  (
       Overview. <br className="sm:block hidden" /> 
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-      I'm a skilled software developer with experience in C# and JavaScript, and expertise in frameworks like React, React Native, Tailwind and Three.js.
+      Hello! I'm a skilled software developer with expertise in React, React Native, and Three.js. I have a  background in 
+      C# and have expanded my knowledge to include Node.js and Next.js. With proficiency in these technologies, 
+      I'm capable of building dynamic and interactive web applications. My passion lies in creating engaging user experiences 
+      and pushing the boundaries of web development.
       </p>
 
       
